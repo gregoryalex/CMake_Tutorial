@@ -1,0 +1,92 @@
+Start testing: Jul 14 23:56 Pacific Daylight Time
+----------------------------------------------------------
+1/5 Testing: TutorialRuns
+1/5 Test: TutorialRuns
+Command: "D:/OneDrive/Programing/C/CMake_Tutorial/Tutorial.exe" "25"
+Directory: D:/OneDrive/Programing/C/CMake_Tutorial
+"TutorialRuns" start time: Jul 14 23:56 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+The square root of 25 is 5
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TutorialRuns" end time: Jul 14 23:56 Pacific Daylight Time
+"TutorialRuns" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: TutorialComp25
+2/5 Test: TutorialComp25
+Command: "D:/OneDrive/Programing/C/CMake_Tutorial/Tutorial.exe" "25"
+Directory: D:/OneDrive/Programing/C/CMake_Tutorial
+"TutorialComp25" start time: Jul 14 23:56 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+The square root of 25 is 5
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[25 is 5
+]
+"TutorialComp25" end time: Jul 14 23:56 Pacific Daylight Time
+"TutorialComp25" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: TutorialNegative
+3/5 Test: TutorialNegative
+Command: "D:/OneDrive/Programing/C/CMake_Tutorial/Tutorial.exe" "-25"
+Directory: D:/OneDrive/Programing/C/CMake_Tutorial
+"TutorialNegative" start time: Jul 14 23:56 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+The square root of -25 is -1.#IND
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Fail Reason:
+Required regular expression not found.Regex=[-25 is 0
+]
+"TutorialNegative" end time: Jul 14 23:56 Pacific Daylight Time
+"TutorialNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: TutorialSmall
+4/5 Test: TutorialSmall
+Command: "D:/OneDrive/Programing/C/CMake_Tutorial/Tutorial.exe" "0.0001"
+Directory: D:/OneDrive/Programing/C/CMake_Tutorial
+"TutorialSmall" start time: Jul 14 23:56 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+The square root of 0.0001 is 0.01
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[0.0001 is 0.01
+]
+"TutorialSmall" end time: Jul 14 23:56 Pacific Daylight Time
+"TutorialSmall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: TutorialUsage
+5/5 Test: TutorialUsage
+Command: "D:/OneDrive/Programing/C/CMake_Tutorial/Tutorial.exe"
+Directory: D:/OneDrive/Programing/C/CMake_Tutorial
+"TutorialUsage" start time: Jul 14 23:56 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+D:/OneDrive/Programing/C/CMake_Tutorial/Tutorial.exe Version 1.0
+Usage: D:/OneDrive/Programing/C/CMake_Tutorial/Tutorial.exe number
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[Usage:.*number
+]
+"TutorialUsage" end time: Jul 14 23:56 Pacific Daylight Time
+"TutorialUsage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 14 23:56 Pacific Daylight Time
